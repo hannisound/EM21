@@ -1,0 +1,20 @@
+﻿Willkommen beim Tippspiel von Motor-Desgin.de,<br /><br />
+
+###NAME### möchte Sie zum Tippspiel für die WM Tippspiel 2018 von BDE-Malygos.de einladen.<br />
+Hier seine Persönliche Nachricht an Sie:<br /><br />
+
+ <i>###TEXT###</i> <br /><br />
+
+Falls Sie dem Aufruf folgen wollen klicken Sie einfach auf folgenden Link und Registieren Sie sich bei uns:<br /><br />
+
+###LINK###<br /><br />
+
+Sollte der Link nicht korrekt angezeigt werden kopieren Sie bitte folgenden Text in die Adressleiste Ihres Browser<br /><br />
+
+###LINK2###<br /><br />
+
+Wir hoffen Sie bald in unserer Gemeinschaft begrüßen zu dürfen!<br /><br />
+
+Mit freundenlichen Grüßen<br /><br />
+
+Ihr Tippspiel von BDE-Malygos.de

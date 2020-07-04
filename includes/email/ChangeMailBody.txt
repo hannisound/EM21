@@ -1,0 +1,13 @@
+﻿Hallo ###NAME###,<br><br>
+
+Es ist gerade ein Antrag auf E-Mail Adressen Änderung bei uns eingegangen.<br>
+Damit wir Ihre Neue E-Mail Adresse bei uns im System eintragen können bitten wir Sie den unten stehenden Link zu folgen.<br><br>
+
+###LINK###<br><br>
+
+Sollten Sie keine Eintragung einer neuen E-Mail Adresse beantragt haben, bitte wir Sie Ihr Passwort zu ändern.<br>
+Da es sein könnte das Ihr Account korrumpiert wurde. Um Ihr Passwortzu ändern melden Sie sich bitte mit Ihren Zugangsdaten an und ändern Sie Ihr Passwort im Privaten Bereich.<br>
+Antworten Sie bitte nicht auf diese E-Mail dies ist eine Automatisch erstelle E-Mail vom System. Antworten verschwinden in den Endlosen Tiefen des www's.<br><br>
+
+Vielen Dank<br>
+Ihr Tippspiel-Sicherheitsteam von BDE-Malygos.de<br>

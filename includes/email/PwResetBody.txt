@@ -1,0 +1,17 @@
+﻿Hallo ###NAME###,<br>
+Sie haben eine Passwort Änderung durch einen Administrator angefordert.<br>
+Wir haben soeben Ihr Passwort wie gewünscht zurückgesetzt.<br><br>
+
+Ihr neues Passwort lautet: <b>###PWRESET###</b><br><br>
+
+<u>Ihre neuen Logindaten:</u><br>
+E-Mail Adresse: ###NAME###<br>
+Passwort: ###PWRESET###<br><br>
+
+Nachdem Sie sich mit diesem Passwort angemeldet haben, ändern Sie bitte Ihr Passwort unter Einstellungen.<br><br>
+
+Bite antworten Sie nicht auf diese Mail. Dies ist eine Automatische Mail und daher wird die Antwort bei uns nicht eintreffen.<br>
+Sollten Sie Probleme haben, Nutzen Sie bitte das Kontaktformular auf unserer Seite.<br><br>
+
+Vielen Dank und viel Spaß beim Tippen und Mitfiebern für die Deutsche Mannschaft!<br>
+Das Fußballtippspielteam von BDE-Malygos.de

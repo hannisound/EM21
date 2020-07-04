@@ -1,0 +1,17 @@
+﻿Herzlich Willkommen ###NAME###,<br>
+beim Weltmeisterschaftstippspiel von bde-malygos.de<br><br>
+
+Sie haben sich gerade bei uns Registiert, um bei unserem Tippspiel teilnehmen zu können, müssen Sie die Registierung noch abschließen.<br> 
+Dazu müssen Sie nur den unten stehenden Link anklicken. Sie werden danach Automatisch freigeschaltet und können sich danach einloggen.<br><br>
+
+###LINK###<br><br>
+
+Sollte dieser Link nicht anklickbar sein geben Sie bitte folgenden Link in Ihren Browser ein:<br><br>
+
+###LINK2###<br><br>
+
+Bite antworten Sie nicht auf diese Mail. Dies ist eine Automatische Mail und daher wird die Antwort bei uns nicht eintreffen.<br>
+Sollten Sie Probleme haben, Nutzen Sie bitte das Kontaktformular auf unserer Seite.<br><br>
+
+Vielen Dank und viel Spaß beim Tippen und Mitfiebern für die Deutsche Mannschaft!<br>
+Das Fußballtippspielteam von bde-malygos.de

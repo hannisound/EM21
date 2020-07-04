@@ -1,0 +1,13 @@
+﻿Hallo ###USERNAME###<br>
+Sie haben gerade die Passwort vergessen Funktion benutzt. Folgen Sie bitte den weiteren Anweisungen in dieser E-Mail.<br /><br />
+
+Folgen Sie bitte dem Link und setzten Sie auf der neuen Seite Ihr Passwort zurück.<br /><br />
+
+###LINK###<br /><br />
+
+Falls Sie den Link nicht anklicken können kopieren Sie folgende URL in die Adressleiste Ihres Browsers<br /><br />
+
+###LINK2###<br /><br />
+
+Vielen Dank und viel Spaß beim Tippen und Mitfiebern für die Deutsche Mannschaft!<br>
+Das Fußballtippspielteam von bde-malygos.de

@@ -1,0 +1,6 @@
+Es wurde gerade eine Nachricht von dem Kontaktformular vom WM Tippspiel 2018 versendet.<br><br>
+
+###NAME### (###EMAIL###) hat Ihnen eine Nachricht hinterlassen:<br><br>
+
+<b>###BETREFF###:</b><br>
+###NACHRICHT###

@@ -1,0 +1,578 @@
+/* Klassen */
+.pull-left {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  padding: 20px;
+  background: #eee;
+  box-sizing: border-box;
+}
+.pull-right {
+  float: right !important;
+  margin-bottom: 5px;
+}
+
+header {
+  background-image: url("../images/Roh/fussball-an-der-eckenlinie-4096x2731.jpg");
+  background-size: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+section {
+  padding-bottom: 10em;
+  position: relative;
+  min-height: 100;
+  margin: 0 auto;
+}
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.is-invalid {
+  background: rgba(217,83,79,0.5) !important;
+}
+.bg-info {
+  background-color: rgba(23, 162, 184, 0.4) !important;
+}
+
+.bg-green {
+  background-color: rgba(26, 177, 136, 0.4) !important;
+}
+
+span.left {
+  float: left;
+}
+
+span.right {
+  float: right;
+}
+
+#header {
+  padding: 125px 0 75px;
+}
+
+#header h2 {
+  font-size: 40pt;
+  text-shadow:  0.5px  0.5px 0.5px black,
+                  0.5px -0.5px 0.5px black,
+                 -0.5px  0.5px 0.5px black,
+                 -0.5px -0.5px 0.5px black;
+}
+
+#header p.lead {
+    font-size: 20pt;
+    color: white;
+    text-shadow:  0.5px  0.5px 0.5px black,
+                  0.5px -0.5px 0.5px black,
+                 -0.5px  0.5px 0.5px black,
+                 -0.5px -0.5px 0.5px black;
+}
+
+
+/* Image */
+
+	.image {
+		border-radius: 0.375em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			border-radius: 0.375em;
+			display: block;
+		}
+
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.left {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
+
+		.image.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+			.image.main img {
+				width: 100%;
+			}
+
+	a.image {
+		overflow: hidden;
+	}
+
+		a.image img {
+			-moz-transition: -moz-transform 0.2s ease;
+			-webkit-transition: -webkit-transform 0.2s ease;
+			-ms-transition: -ms-transform 0.2s ease;
+			transition: transform 0.2s ease;
+		}
+
+		a.image:hover img {
+			-moz-transform: scale(1.075);
+			-webkit-transform: scale(1.075);
+			-ms-transform: scale(1.075);
+			transform: scale(1.075);
+		}
+
+/* Login CSS */
+
+a {
+  text-decoration: none;
+  color: #1ab188;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+a:hover {
+  color: #179b77;
+}
+
+.form {
+  font-family: 'Titillium Web', sans-serif;
+  /*background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);*/
+}
+
+h1 {
+  text-align: center;
+  color: rgba(0,0,0, 0.5);
+  font-weight: 300;
+  margin: 0 0 40px;
+  padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #1ab188;
+    font-weight: 1000;
+    margin: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+div.info {
+    color: pink;
+    display: box;
+    text-align: center;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    background: #66131c;
+}
+
+.field-wrap label {
+  position: absolute;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  left: 13px;
+  color: rgba(0,0,0, 0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 16px;
+}
+
+label.grpSieger {
+  padding: 5px;
+}
+
+label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+
+.field-wrap label.active {
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  left: 2px;
+  font-size: 14px;
+}
+label.active .req {
+  opacity: 0;
+}
+
+label.highlight {
+  color: rgba(0,0,0, 0.5)
+}
+
+/* Passworthinweis ausblenden wenn Feld ausgefüllt wird */
+small.inactive {
+  visibility: hidden;
+}
+
+/* Extra Abstand durch small im Formular normalisieren */
+.form small {
+  margin-bottom: -20px;
+}
+
+/*
+    Shoutbox designen
+*/
+
+#shoutbox_content {
+  margin-top:10px;
+  overflow: auto;
+  width: 100% !important;
+  height: 300px;
+}
+
+
+#shoutbox_content .no_data {
+  padding:5px;
+  /*border:1px solid darkred;*/
+}
+
+#shoutbox_content .entry {
+  margin-top:10px;
+  overflow:hidden;
+}
+
+#shoutbox_content .entry .header{
+  color:black;
+  font-size:12px;
+  padding-bottom:5px;
+  border-bottom:1px solid #d6d6d6;
+}
+
+#shoutbox_content .entry .text{
+  color: black;
+  margin-top:5px;
+  padding:0px 0px 0px 10px;
+}
+
+
+
+/*
+  adm_news_Eidt.php Gestaltung der Listenpunkte & Buttons
+*/
+
+.news_edit {
+  list-style-type:none;
+  border:solid 1px;
+  padding: 5px;
+  margin: 5px;
+}
+
+/*
+  Ende adm_news_edit.php
+*/
+
+input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  /*height: 100%;*/
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: rgba(0,0,0, 0.5);
+  border-radius: 0 !important;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
+}
+
+.tipp{
+    width: 25px !important;
+    height: 25px;
+    text-align: center;
+    padding: 5px !important;
+    display: inline-flex;
+}
+
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+
+.short_name {
+  display: none;
+}
+
+.long_name {
+  display: contents;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.btn {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.btn-green {
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  padding: 10px -5px;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+  margin: 5px;
+}
+
+.btn-green:hover, .btn-green:focus {
+  background: #179b77;
+}
+
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+
+/* Bootstrap Toggle v2.2.2 corrections for Bootsrtap 4*/
+/* TODO: Wird das noch benötigt Bootstrap hat Toggle Switche jetzt enthalten */
+.toggle-off {
+    box-shadow: inset 0 30px 50px rgba(0, 0, 0, .125);
+}
+.toggle.off {
+    border-color: rgba(0, 0, 0, .25);
+}
+
+.toggle-handle {
+    background-color: white;
+    border: thin rgba(0, 0, 0, .25) solid;
+}
+
+/* Autocomplete Design */
+
+.autocomplete-suggestions { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+.transparenz30{
+  opacity: 0.3;                                                         /* Der Befehl mit Gültigkeit in aller gängigen Browsern in Zukunft? */
+  filter:alpha(opacity=30);                                             /* ältere Versionen des Internet Explorers inklusive Version 7 */
+  -moz-opacity: 0.3;                                                    /* alte Versionen von Mozilla Fireox */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";    /* Internet Explorer Version 8 */
+  -webkit-opacity: 0.3;                                                 /* alte Versionen von Webkit-Browsern */
+  border: 1px solid #000;
+}
+
+.transparenz100{
+  opacity: 1;                                                           /* Der Befehl mit Gültigkeit in aller gängigen Browsern in Zukunft? */
+  filter:alpha(opacity=100);                                            /* ältere Versionen des Internet Explorers inklusive Version 7 */
+  -moz-opacity: 1;                                                      /* alte Versionen von Mozilla Fireox */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";   /* Internet Explorer Version 8 */
+  -webkit-opacity: 1;                                                   /* alte Versionen von Webkit-Browsern */
+  border: 1px solid #000;
+}
+
+.noBorder {
+  border: none !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  #header {
+    padding: 75px 0 20px;
+  }
+
+  .short_name {
+    display: contents;
+  }
+
+  .long_name {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .4rem !important;
+  }
+
+    /*  Primär für Flaggen benutzt
+      Element bei Smartphone Nutzung nicht mehr nach Links/Rechts floaten
+      Dafür Margin 1rem um Abstand zum Teamnamen zu erwirken */
+
+      span.left {
+        float: none;
+        margin-right: 1rem;
+      }
+    
+      span.right {
+        float: none;
+        margin-left: 1rem;
+      }
+}
+
+@media screen and (max-width:700px) {
+
+/* Tabellen für Smartphones anpassen */
+.sm-table table, tr, td {
+		padding:0;
+		border: none;
+	}
+
+	.sm-table table {
+		border:none;
+	}
+
+	.sm-table th {
+		display:none;
+	}
+
+	.sm-table tr {
+		float: left;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+
+	.sm-table td {
+		float: left;
+		width: 100%;
+		padding:1em;
+	}
+  
+  .sm-table td::before {
+		content:attr(data-label);
+    word-wrap: break-word;
+    float:left;
+  }
+
+  .short_name {
+    display: contents;
+  }
+
+  .long_name {
+    display: none;
+  }
+
+  /*  Primär für Flaggen benutzt
+      Element bei Smartphone Nutzung nicht mehr nach Links/Rechts floaten
+      Dafür Margin 1rem um Abstand zum Teamnamen zu erwirken */
+
+  span.left {
+    float: none;
+    margin-right: 1rem;
+  }
+
+  span.right {
+    float: none;
+    margin-left: 1rem;
+  }
+
+  /* FAQ auf Smartphones anpassen */
+
+  .btn {
+    white-space: normal;  /* Für Zeilenumbruch im Buttontext sorgen, damit der Text nicht drüber hinaus geht */
+  }
+
+  .sm-padding {
+    margin: 5px;
+    padding: 5px;
+  }
+
+}
