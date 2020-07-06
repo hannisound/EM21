@@ -2,7 +2,7 @@
 /* Database connection settings */
 $host = 'localhost';
 $user = 'root';
-$pass = ''; //Hb90kmarl!
+$pass = '';
 $db = 'em21';
 
 define ("prefix", "em21");
